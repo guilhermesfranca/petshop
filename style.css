@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        text-decoration: none;
+}
+.container {
+    padding: 120px 80px;
+}
+
+.destaque {
+    font-weight: 700;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 36px;
+    color: #c77f4d;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+/* essas foram alterações globais*/ 
+
+.banner-topo {
+    background-image: url('assets/banner.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.container-logo {
+    max-width: 250px;
+    color: #c77f4d;
+}
+.container-logo img {
+    width: 30px;
+    margin-right: 5px;
+
+}
+
+.container-logo .nome-petshop {
+    font-size: 35px;
+    margin:  0 0 5px 0;
+    font-weight: 600;
+}
+.container-logo .slogan-petshop {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+.container-titulo-topo {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+.titulo-topo {
+    font-size: 60px;
+    color: #c77f4d;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+    
+}
+
+.link-fale-conosco {
+    width: 200px;
+    padding: 10px 25px;
+    background-color: #c77f4d;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.link-fale-conosco a {
+    color: #fff;
+}
+.container-titulo-topo img {
+    width: 20px;
+    margin-left: 6px;
+    
+}
+.box-servicos {
+    max-width: 800px;
+    margin: 0  auto 50px;
+    color: #c77f4d;
+}
+.box-servicos li {
+    font-size: 20px;
+    margin: 0 0 20px
+}
+
+.box-servicos-img {
+    max-width: 800px;
+    margin: 0 auto; 
+    text-align: center;
+}
+.box-servicos-img img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+.faixa {
+    background-color: #c77f4d;
+    text-align: center;
+}
+.text-faixa {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 40px;
+    color: #fff;
+}
+.redes-sociais a {
+    margin: 0 20px;
+}
+.redes-sociais img {
+    width: 50px;
+}
+
+.container-marcas {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.logo-marca {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+.onde-estamos {
+    text-align: center;
+}
+.onde-estamos p {
+    font-size: 20px;
+    color: #c77f4d;
+    margin: 0 0 45px ;    
+}
+.onde-estamos iframe {
+    width: 800px;
+    height: 450px;
+}
+
+.rodape {
+    width: 100vw;
+    padding: 10px 0;
+    background-color: #c77f4d;
+}
+.text-rodape {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+
+}
