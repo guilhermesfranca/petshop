@@ -5,6 +5,55 @@
         font-family: sans-serif;
         text-decoration: none;
 }
+/* Bloqueia o deslocamento horizontal */
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Garantir que o corpo não ultrapasse a largura da tela */
+body {
+    min-width: 100vw;
+    overflow-x: hidden; /* Isso vai impedir o scroll horizontal */
+}
+
+/* Garantir que a estrutura de layout principal não cause deslocamento */
+.container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Garantir que as imagens e outros elementos não saiam da tela */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem vertical */
+    height: 10px; /* Altura da barra de rolagem horizontal */
+  }
+  
+  /* Estiliza a trilha (fundo da barra de rolagem) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo */
+    border-radius: 10px; /* Borda arredondada */
+  }
+  
+  /* Estiliza o "thumb" (a parte que se move) */
+  ::-webkit-scrollbar-thumb {
+    background: #c77f4d; /* Cor da barra */
+    border-radius: 2px; /* Deixa arredondada */
+  }
+  
+  /* Altera a cor do thumb ao passar o mouse */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a76536; /* Cor ao passar o mouse */
+  }
+  
+
 .container {
     padding: 120px 80px;
 }
