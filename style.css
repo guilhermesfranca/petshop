@@ -152,3 +152,147 @@ h3 {
     font-size: 12px;
 
 }
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 80px 40px;
+    }
+
+    .container-logo .nome-petshop {
+        font-size: 28px;
+    }
+
+    .titulo-topo {
+        font-size: 40px;
+    }
+
+    .link-fale-conosco {
+        width: 180px;
+        font-size: 18px;
+    }
+
+    .text-faixa {
+        font-size: 30px;
+    }
+
+    .redes-sociais img {
+        width: 40px;
+    }
+
+    .box-servicos li {
+        font-size: 18px;
+    }
+
+    .box-servicos-img img {
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .onde-estamos iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 60px 20px;
+    }
+
+    .container-logo .nome-petshop {
+        font-size: 24px;
+    }
+
+    .titulo-topo {
+        font-size: 32px;
+    }
+
+    .link-fale-conosco {
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .box-servicos {
+        padding: 10px;
+    }
+
+    .box-servicos li {
+        font-size: 16px;
+    }
+
+    .box-servicos-img img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .text-faixa {
+        font-size: 24px;
+    }
+
+    .redes-sociais img {
+        width: 40px;
+    }
+
+    .onde-estamos iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .rodape {
+        padding: 8px 0;
+    }
+
+    .text-rodape {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 50px 10px;
+    }
+
+    .container-logo .nome-petshop {
+        font-size: 20px;
+    }
+
+    .titulo-topo {
+        font-size: 28px;
+    }
+
+    .link-fale-conosco {
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .box-servicos li {
+        font-size: 14px;
+    }
+
+    .box-servicos-img img {
+        width: 100%;
+        max-width: 180px;
+        margin-bottom: 10px;
+    }
+
+    .text-faixa {
+        font-size: 20px;
+    }
+
+    .redes-sociais img {
+        width: 35px;
+    }
+
+    .onde-estamos iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .rodape {
+        padding: 5px 0;
+    }
+
+    .text-rodape {
+        font-size: 8px;
+    }
+}
